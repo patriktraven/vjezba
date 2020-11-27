@@ -1,0 +1,9 @@
+cd desktop
+mkdir vjezba
+cd vjezba
+git init vjezba
+echo "Patrik Traven" > Readme.md
+git add readme.md
+git commit -m "Prvi commit"
+git remote add origin https://github.com/patriktraven/vjezba.git
+git push -u origin main
